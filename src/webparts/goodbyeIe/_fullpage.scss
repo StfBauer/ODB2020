@@ -1,21 +1,21 @@
 .gbie-wrapper{
-  // @include flUI-grid;
-  // width: 100%;
-  // max-width: 1360px;
-  // margin: 0 auto;
+  @include flUI-grid;
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .gbie-header {
   height: 100px;
-  background-color: $base-color;
+  // background-color: $base-color;
   color: white;
-  // @include flUI-span(12);
+  @include flUI-span(12);
 }
 
 .gbie-sidebar {
-  // @include flUI-span(4);
+  @include flUI-span(4);
 }
 
 .gbie-main {
-  // @include flUI-span(8);
+  @include flUI-span(8);
 }

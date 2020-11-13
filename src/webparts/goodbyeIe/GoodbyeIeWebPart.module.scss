@@ -1,5 +1,5 @@
 @import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
-// @import "fonts";
+@import "fonts";
 @import "mixin";
 
 $base-color: #da3280;
@@ -19,8 +19,8 @@ $base-color: #da3280;
 		background-color: $base-color;
 		color: white;
 
-		// background-color: var(--primaryButtonBackground);
-		// color: var(--primaryButtonText);
+		background-color: var(--primaryButtonBackground);
+		color: var(--primaryButtonText);
 	
 	}
 

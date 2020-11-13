@@ -1,4 +1,4 @@
-# Office Developer Bootcamp 2020
+# Microsoft 365 Developer Bootcamp 2020
 
 https://my.n8d.at/M365BC
 
@@ -10,6 +10,13 @@ https://my.n8d.at/M365BC
 * [Build SharePoint / Fluent UI compliant grid from scratch - N8D](https://n8d.at/build-a-sharepoint-fluent-ui-compliant-grid-from-scratch/)
 * [Develop SPFx web parts for different section designs using CSS - N8D](https://n8d.at/develop-spfx-web-parts-for-different-section-designs-using-css/)
 * [Supporting section backgrounds](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds)
+* [How to fix Segoe UI font issue with SPFx and Microsoft Teams](https://n8d.at/how-to-fix-segoe-ui-font-issue-with-spfx-and-microsoft-teams/)
+* [Make Fluent UI icon font work in Microsoft Teams](https://n8d.at/make-fluent-ui-icon-font-work-in-microsoft-teams/)
+
+## Tools used
+
+* [SharePoint Online Live Reload Application customizer released](https://n8d.at/sharepoint-online-live-reload-application-customizer-released/)
+* [Make Livereload on SharePoint Online possible](https://n8d.at/make-livereload-on-sharepoint-online-possible/)
 
 
 ## Global dependencies

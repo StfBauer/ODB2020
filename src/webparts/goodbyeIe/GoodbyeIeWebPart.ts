@@ -36,7 +36,7 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
       // loop over it
       themingKeys.forEach(key => {
         // add CSS variable to style property of the web part
-        this.domElement.style.setProperty(`--${key}`, theming[key])
+        this.domElement.style.setProperty(`--${key}`, theming[key]);
 
       });
 
@@ -51,8 +51,6 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
 
     // If it exists, get the theme variant
     this._themeVariant = this._themeProvider.tryGetTheme();
-
-    // debugger;
 
     // If there is a theme variant
     if (this._themeVariant) {
@@ -84,10 +82,14 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
     } else {
 
       // is 100% full page
-      if (document.getElementById("spPageCanvasContent") == null) {
+      if (document.getElementById("spPageCanvasContent") === null) {
+
         this.domElement.classList.add('is-fullpage');
+
       } else {
+
         this.domElement.classList.add('is-webpart');
+
       }
 
     }
@@ -129,7 +131,6 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
     this.setCSSVariables(this._themeVariant.semanticColors);
     // this.render();
   }
-  TypeScript
 
 
   protected get dataVersion(): Version {

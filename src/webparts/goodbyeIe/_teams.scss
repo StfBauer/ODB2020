@@ -1,6 +1,7 @@
 .gbie-wrapper{
-  // font-family: "Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-family: "Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
   font-weight: 400; // Set all back to regular
+  @include flUI-grid;
 }
 
 .gbie-header {
@@ -8,7 +9,9 @@
 }
 
 .gbie-sidebar {
-  display: none;
+  @include flUI-span(2);
 }
 
-.gbie-main {}
+.gbie-main {
+  @include flUI-span(10);
+}
