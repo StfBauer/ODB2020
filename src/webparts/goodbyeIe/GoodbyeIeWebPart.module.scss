@@ -1,13 +1,11 @@
 @import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
-@import "fonts";
+// @import "fonts";
 @import "mixin";
 
+$base-color: #da3280;
 
 .goodbyeIe{
 	content: "";
-
-	background-color: var(--primaryButtonBackground);
-	color: var(--primaryButtonText);
 
 	%flex{
 		font-size: 150%;
@@ -18,11 +16,11 @@
 
 		align-items: center;
 		justify-content: center;
-		background-color: red;
+		background-color: $base-color;
 		color: white;
 
-		background-color: var(--primaryButtonBackground);
-		color: var(--primaryButtonText);
+		// background-color: var(--primaryButtonBackground);
+		// color: var(--primaryButtonText);
 	
 	}
 
@@ -53,9 +51,6 @@
 	}
 
 	&[class*="is-fullpage"]{
-		width: 100%;
-		max-width: 1360px;
-		margin: 0 auto;
 
 		:global{
 			@import "fullpage";

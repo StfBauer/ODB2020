@@ -31,9 +31,6 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
     // request all key defined in theming
     let themingKeys = Object.keys(theming);
 
-
-    console.log(theming);
-
     // if we have the key
     if (themingKeys !== null) {
       // loop over it
@@ -55,7 +52,7 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
     // If it exists, get the theme variant
     this._themeVariant = this._themeProvider.tryGetTheme();
 
-    console.log(this._themeVariant);
+    // debugger;
 
     // If there is a theme variant
     if (this._themeVariant) {
@@ -65,7 +62,7 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
 
     } else if (window["__themeState__"].theme) {
 
-      // FALLBACK TO DEFAULT FONT
+      // FALLBACK TO App Page
 
       // we set transfer semanticColors into CSS variables
       this.setCSSVariables(window["__themeState__"].theme);

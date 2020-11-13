@@ -1,10 +1,13 @@
 .gbie-wrapper{
   // @include flUI-grid;
+  // width: 100%;
+  // max-width: 1360px;
+  // margin: 0 auto;
 }
 
 .gbie-header {
   height: 100px;
-  background-color: red;
+  background-color: $base-color;
   color: white;
   // @include flUI-span(12);
 }
