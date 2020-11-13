@@ -1,0 +1,31 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "mixin";
+
+.goodbyeIe{
+	content: "";
+
+  // background-color: var(--primaryButtonBackground);
+  // color: var(--primaryButtonText);
+
+	&[class*="is-webpart"]{
+		:global{
+			@import "webpart";
+		}
+	}
+
+	&[class*="is-fullpage"]{
+		width: 100%;
+		max-width: 1360px;
+		margin: 0 auto;
+
+		:global{
+			@import "fullpage";
+		}
+	}
+
+	&[class*="is-teams"]{
+		:global{
+			@import "teams";
+		}
+	}
+}
