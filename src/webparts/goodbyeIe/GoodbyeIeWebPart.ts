@@ -55,6 +55,8 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
     // If it exists, get the theme variant
     this._themeVariant = this._themeProvider.tryGetTheme();
 
+    console.log(this._themeVariant);
+
     // If there is a theme variant
     if (this._themeVariant) {
 
@@ -98,15 +100,22 @@ export default class GoodbyeIeWebPart extends BaseClientSideWebPart<IGoodbyeIeWe
 
     // add content
     this.domElement.innerHTML = `
+      <div class="gbie-wrapper">
+
+        <header class="gbie-header"><span>HEADER</span></header>
       
-      <header class="gbie-header">HEADER</header>
-      <aside class="gbie-sidebar">Sidebar</aside>
-      <main class="gbie-main">
-        Main Content
-        <article class="gbie-article">
-          Main Article
-        </article>
-      </main>
+        <aside class="gbie-sidebar"><span>Sidebar</span></aside>
+      
+        <main class="gbie-main">
+          <span>
+            Main Content
+            <article class="gbie-article">
+              Main Article
+            </article>
+          </span>
+        </main>
+      
+      </div>
 
       `;
   }

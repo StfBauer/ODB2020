@@ -1,9 +1,18 @@
+.gbie-wrapper{
+  // @include flUI-grid;
+}
+
 .gbie-header {
-  display: none;
+  height: 100px;
+  background-color: red;
+  color: white;
+  // @include flUI-span(12);
 }
 
 .gbie-sidebar {
-  display: none;
+  // @include flUI-span(4);
 }
 
-.gbie-main {}
+.gbie-main {
+  // @include flUI-span(8);
+}

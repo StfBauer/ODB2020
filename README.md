@@ -1,5 +1,14 @@
-# bootcampie
+# Office Developer Bootcamp 2020
 
+Additional Information:
+
+* [Microsoft 365 apps say farewell to Internet Explorer 11](https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666)
+* [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Custom properties (--*)](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
+* [Build SharePoint / Fluent UI compliant grid from scratch](https://n8d.at/build-a-sharepoint-fluent-ui-compliant-grid-from-scratch/)
+* [Develop SPFx web parts for different section designs using CSS](https://n8d.at/build-a-sharepoint-fluent-ui-compliant-grid-from-scratch/)
+* [Supporting section backgrounds](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/guidance/supporting-section-backgrounds)
 
 
 > This is where you include your project's documentation.

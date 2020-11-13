@@ -1,11 +1,50 @@
 @import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+@import "fonts";
 @import "mixin";
+
 
 .goodbyeIe{
 	content: "";
 
-  // background-color: var(--primaryButtonBackground);
-  // color: var(--primaryButtonText);
+	background-color: var(--primaryButtonBackground);
+	color: var(--primaryButtonText);
+
+	%flex{
+		font-size: 150%;
+		font-weight: bold;
+
+		display: flex;
+		flex-direction: row;
+
+		align-items: center;
+		justify-content: center;
+		background-color: red;
+		color: white;
+
+		background-color: var(--primaryButtonBackground);
+		color: var(--primaryButtonText);
+	
+	}
+
+	:global{
+		.gbie-wrapper{
+			// @extend %flex;
+		}
+		.gbie-header{
+			@extend %flex;
+		}
+
+		.gbie-sidebar{
+			@extend %flex;
+		}
+
+		.gbie-main{
+			@extend %flex;
+
+			min-height: 300px;
+		}
+	}
+
 
 	&[class*="is-webpart"]{
 		:global{
